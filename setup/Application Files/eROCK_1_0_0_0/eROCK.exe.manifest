@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="eROCK.exe" version="1.0.0.0" publicKeyToken="fe1a487951c30691" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="eROCK" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="eROCK.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Direct2D.dll" size="18944">
+      <assemblyIdentity name="Direct2D" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kbaPP/gkszDS6qPozc46ECClSwNtbgsFaGN5fTVbmwc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DynamicDataDisplay.dll" size="346624">
+      <assemblyIdentity name="DynamicDataDisplay" version="0.3.0.0" publicKeyToken="5B7D744A7263923F" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cPboTFpVvSmPZoNw1/+gFZgFhbnuANk2PbQOx9L88IM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="eROCK.exe" size="24472">
+      <assemblyIdentity name="eROCK" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nik2i8dMkjmHmLCPoLj3MaLfl27axHcuZse9CWsekgU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="hci_coder_net.dll" size="75264">
+      <assemblyIdentity name="hci_coder_net" version="1.2.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tOc/2r2wpeKc7gLF0zMiUcUFWWgECCd2HPIsgPLvQBs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IronPython.dll" size="1821184">
+      <assemblyIdentity name="IronPython" version="2.7.5.0" publicKeyToken="7F709C5B713576E1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>a57Xy7+3NBI6zU8TGDjjoHGY3r+hjbMQrB3XD0eO8s8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MasterEmulator.dll" size="4121088">
+      <assemblyIdentity name="MasterEmulator" version="2.1.13.14" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f+ocF0yXreMv5p+8hmUykvIBFHy05Du30NVlgzE4oEo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Dynamic.dll" size="1044992">
+      <assemblyIdentity name="Microsoft.Dynamic" version="1.1.0.20" publicKeyToken="7F709C5B713576E1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hjOjRaLbpyFuf8tr/rTJqFbKCWTBkTiPOwVs1tPdvTE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Scripting.dll" size="144384">
+      <assemblyIdentity name="Microsoft.Scripting" version="1.1.0.20" publicKeyToken="7F709C5B713576E1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9eClelX9kfWLbdyj4Z5hakRspPWMvRMRjv8ULf4mjv0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.WindowsAPICodePack.DirectX.dll" size="1633280">
+      <assemblyIdentity name="Microsoft.WindowsAPICodePack.DirectX" version="1.1.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f0xaQ64+J0xTEEBnluGbZYet/HbIuyd/hABeVBCag0Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Righthand.RealtimeGraph.dll" size="20480">
+      <assemblyIdentity name="Righthand.RealtimeGraph" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GRi27Xug1EmpJjfSCPIVSWskfeoVgm4L1pmD5cgHDic=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Signalyzer.dll" size="31744">
+      <assemblyIdentity name="Signalyzer" version="0.0.0.1" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dIhQKUvlfWndaM8IlQz2ey6VoBL+jHDPE2w1GtstQbw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ulpbt.dll" size="1524736">
+      <assemblyIdentity name="Ulpbt" version="1.1.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ODSZcd08bXUHjl31cJ2nkdSrnyaNeYhLHVmvASdBIHE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UlpbtUtils.dll" size="47616">
+      <assemblyIdentity name="UlpbtUtils" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>91D7rQYDM4YEChdPFevyuR0hILtDQ17oS1gbFz7F7i8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="eROCK.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EDDY\Dell" issuerKeyHash="6bcaf9dc2a5f9ea06da3c7bf4245b5441ce0cd4b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>w4XAEp/+y4STXroKX+AJhqj54+iDavhzQafW4YkHkNg=</DigestValue></Reference></SignedInfo><SignatureValue>x0t468y96Q3igp5mPH8hoKOIpuNlnMU1qRbPgrt8BQAmemfxmk6p2BujzE5DInhKw18qestiqIW0g9QlvnJItq8qP1gHWFy1779lW4KcMotBHrkCwU1vPUbxGBlLsgPl+y+QjV8c7RdrBc7whozcDUwjvQpppo2p70exODduLgQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2zYmjdCFMD2vdhZ41fc48UCDf2xM+Psv+bNyZe38WqVk0JuSvhm+BE1Qx3P6tK3BgUC1hzEUzobD132xS6GXR4J+L41RszF1F676r/1uj1mP9TFGN7RY8PBnvy0Ki583PIov95JRC1CrRIE2Xn0pHv8n6jMsb6EIk7UMyu+Y+GE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d8900789e1d6a74173f86a83e8e3f9a88609e05f0aba5e9384cbfe9f12c085c3" Description="" Url=""><as:assemblyIdentity name="eROCK.exe" version="1.0.0.0" publicKeyToken="fe1a487951c30691" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EDDY\Dell</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DqRzDWqIaEbsxOPjOWkHw4qZCpQh+24MjDeTN/5HF0A=</DigestValue></Reference></SignedInfo><SignatureValue>KtFsRZc5UFY/QIr5dcjpGiUjRa9F+vc8OL0mFFB156hLPgISplVeKghyX6Nyd6wxby5Gm4y5NT3bLc0U10Lnb4RUp/QkWxLhwAZNZlsXo2Z83aQtVAP6ldS8OPSKyjTAFCdHa003a+fXKMI4tRLwkO8Fn/w1rikt/IK8mA/yp4g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2zYmjdCFMD2vdhZ41fc48UCDf2xM+Psv+bNyZe38WqVk0JuSvhm+BE1Qx3P6tK3BgUC1hzEUzobD132xS6GXR4J+L41RszF1F676r/1uj1mP9TFGN7RY8PBnvy0Ki583PIov95JRC1CrRIE2Xn0pHv8n6jMsb6EIk7UMyu+Y+GE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQQBWdgPEZ2IhC99Z2dXyrhTANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIARQBEAEQAWQBcAEQAZQBsAGwwHhcNMTUxMjIxMTExMjMwWhcNMTYxMjIwMTcxMjMwWjAdMRswGQYDVQQDHhIARQBEAEQAWQBcAEQAZQBsAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANs2Jo3QhTA9r3YWeNX3OPFAg39sTPj7L/mzcmXt/FqlZNCbkr4ZvgRNUMdz+rStwYFAtYcxFM6Gw9d9sUuhl0eCfi+NUbMxdReu+q/9bo9Zj/UxRje0WPDwZ78tCoufNzyKL/eSUQtQq0SBNl59KR7/J+ozLG+hCJO1DMrvmPhhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAkKYOnUjJjbkLKGFUbx/hLPgiPUziIHTPIaHt9T1i+oylo6gAIHWZDku818GIGW6/Gh5zALjrNd91fZWvdoZcXgnm0wwc89VgxoUstllowLC+RbAK3tS4qL/LRGkTLvV/LJgn1NC99ORUEeXrTP3D7tCppisWbb/8pzjidbuJlLI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
